@@ -1,0 +1,43 @@
+.card {
+  background-color: aliceblue;
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: -3px 4px 19px 12px rgba(0, 0, 0, 0.42);
+  margin: 30px;
+}
+
+.card__img {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+.card__title {
+  color: rgb(73, 73, 73);
+  font-weight: bold;
+  text-align: left;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.card__item__container {
+  width: 100%;
+  display: flex;
+}
+
+.card__item {
+  padding-right: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.card__item__text {
+  color: rgb(73, 73, 73);
+  font-size: 14px;
+  padding-left: 10px;
+}
+.card__description {
+  margin: 40px 10px 50px 0px;
+  font-size: 14px;
+  text-align: left;
+  padding-left: 10px;
+  color: grey;
+}
